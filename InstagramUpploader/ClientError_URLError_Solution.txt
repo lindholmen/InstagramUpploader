@@ -1,0 +1,12 @@
+首先创建新的环境
+conda create -n instagram_env python=3.6
+conda activate instagram_env （关闭是conda deactivate）
+本来可以直接conda install <modulename>但失败了 只能用pip来装
+先升级pip:
+pip3 install --upgrade pip
+然后
+pip install instapy_cli
+最后执行：
+python3 instapp.py
+
+
